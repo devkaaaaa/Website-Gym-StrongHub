@@ -1029,7 +1029,32 @@
     display: block;
     color: white;
   }
+  @media screen and (max-width: 768px){
 
+  .features-grid,
+  .info-cards-grid,
+  .kelas-utama-grid,
+  .classes-grid{
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero h1{
+    font-size: 2rem;
+  }
+
+  #home{
+    padding: 140px 20px 80px;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  .menu-toggle{
+    display: block;
+  }
+
+}
   .nav-links{
     position: absolute;
     top: 100%;
